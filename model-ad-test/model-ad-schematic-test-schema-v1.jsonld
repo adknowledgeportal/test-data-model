@@ -1993,7 +1993,7 @@
                     "@id": "bts:BiospecimenMetadataTemplate"
                 },
                 {
-                    "@id": "bts:AssayRnaSeqMetadataTemplate"
+                    "@id": "bts:AssayRrnaSeqMetadataTemplate"
                 },
                 {
                     "@id": "bts:AssayMRIMetadataTemplate"
@@ -2016,7 +2016,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "assay_MRI_metadata_template",
+            "sms:displayName": "assayMRIMetadataTemplate",
             "sms:required": "sms:false",
             "sms:requiresComponent": [
                 {
@@ -2055,10 +2055,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:AssayRnaSeqMetadataTemplate",
+            "@id": "bts:AssayRrnaSeqMetadataTemplate",
             "@type": "rdfs:Class",
             "rdfs:comment": "SysBio rnaSeq metadata template schema",
-            "rdfs:label": "AssayRnaSeqMetadataTemplate",
+            "rdfs:label": "AssayRrnaSeqMetadataTemplate",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:DataType"
@@ -2067,7 +2067,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "assay_rnaSeq_metadata_template",
+            "sms:displayName": "assayRrnaSeqMetadataTemplate",
             "sms:required": "sms:false",
             "sms:requiresComponent": [
                 {
@@ -2145,7 +2145,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "biospecimen_metadata_template",
+            "sms:displayName": "biospecimenMetadataTemplate",
             "sms:required": "sms:false",
             "sms:requiresComponent": [
                 {
@@ -2214,7 +2214,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "individual_animal_metadata_template",
+            "sms:displayName": "individualAnimalMetadataTemplate",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
