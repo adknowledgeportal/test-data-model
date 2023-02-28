@@ -1,1 +1,1 @@
-individualID ,individualIdSource ,species ,sexChromosome ,dateBirth ,dateDeath ,sex ,genotype ,genotypeBackground ,individualCommonGenotype, room ,litter ,matingID ,treatmentDose ,modelSystemName
+individualID , climbID, microchipID, birthID, matingID , individualIdSource ,species ,sexChromosome ,dateBirth ,dateDeath ,sex ,genotype ,genotypeBackground ,individualCommonGenotype, room ,litter , treatmentDose ,modelSystemName
