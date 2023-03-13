@@ -1,1 +1,1 @@
-individualID,scanID,platform,MRItype,fieldStrength,filename,contrastAgent,ageAssessment,ageAssessmentUnits
+individualID,scanID,ageAssessment,ageAssessmentUnits,contrastAgent,fieldStrength,filename,MRItype,platform
