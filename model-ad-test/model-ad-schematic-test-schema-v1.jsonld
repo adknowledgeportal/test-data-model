@@ -2317,6 +2317,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:AgeDeath",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Age of death",
+            "rdfs:label": "AgeDeath",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ageDeath",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AgeDeathUnits",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The death age unit of measure",
+            "rdfs:label": "AgeDeathUnits",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ageDeathUnits",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Assay",
             "@type": "rdfs:Class",
             "rdfs:comment": "The technology used to generate the data in this file",
@@ -2648,6 +2682,77 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Bedding",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Rodent bedding material",
+            "rdfs:label": "Bedding",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Alpha-dri"
+                },
+                {
+                    "@id": "bts:Aspen"
+                },
+                {
+                    "@id": "bts:Aspensanichip"
+                },
+                {
+                    "@id": "bts:Corncob"
+                },
+                {
+                    "@id": "bts:Pine"
+                },
+                {
+                    "@id": "bts:Sanichip"
+                }
+            ],
+            "sms:displayName": "bedding",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BirthID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Identifying string linked to a particular animal",
+            "rdfs:label": "BirthID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "birthID",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:BrainWeight",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Weight of brain in grams",
+            "rdfs:label": "BrainWeight",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "brainWeight",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:BrodmannArea",
             "@type": "rdfs:Class",
             "rdfs:comment": "A segmentation of the cerebral cortex on the basis of cytoarchitecture",
@@ -2807,6 +2912,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:ClimbID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Identifying string linked to an animal in Climb database",
+            "rdfs:label": "ClimbID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "climbID",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ContrastAgent",
             "@type": "rdfs:Class",
             "rdfs:comment": "Substance administered during an imaging procedure that allows delineation of internal structures.",
@@ -2905,6 +3027,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "filename",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Generation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Rodent generation",
+            "rdfs:label": "Generation",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "generation",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -3460,6 +3599,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:MicrochipID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Identifying string of p-chip implanted in the animal being studied",
+            "rdfs:label": "MicrochipID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "microchipID",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ModelSystemName",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -3714,6 +3870,23 @@
                 }
             ],
             "sms:displayName": "nucleicAcidSource",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OfficialName",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Official JAX Mouse strain nomenclature",
+            "rdfs:label": "OfficialName",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "officialName",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -4142,6 +4315,57 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:RodentDiet",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Laboratory rodent diet",
+            "rdfs:label": "RodentDiet",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:4%standard"
+                },
+                {
+                    "@id": "bts:6%standard"
+                },
+                {
+                    "@id": "bts:7%standard"
+                },
+                {
+                    "@id": "bts:45%high-fat"
+                },
+                {
+                    "@id": "bts:5W80western"
+                }
+            ],
+            "sms:displayName": "rodentDiet",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RodentWeight",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Weight of animal in grams",
+            "rdfs:label": "RodentWeight",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "rodentWeight",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Room",
             "@type": "rdfs:Class",
             "rdfs:comment": "Room the animal was housed in",
@@ -4418,6 +4642,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "specimenIdSource",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:StockNumber",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Official JAX Mouse stock number",
+            "rdfs:label": "StockNumber",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "stockNumber",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -4758,6 +4999,55 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:TreatmentType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Method of treatment",
+            "rdfs:label": "TreatmentType",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Abeta42fibril"
+                },
+                {
+                    "@id": "bts:Abeta42oligomer"
+                },
+                {
+                    "@id": "bts:Clozapine"
+                },
+                {
+                    "@id": "bts:Control"
+                },
+                {
+                    "@id": "bts:Cuprizone"
+                },
+                {
+                    "@id": "bts:Haloperidol"
+                },
+                {
+                    "@id": "bts:Levetiracetam"
+                },
+                {
+                    "@id": "bts:Placebo"
+                },
+                {
+                    "@id": "bts:Verubecestat"
+                },
+                {
+                    "@id": "bts:"
+                }
+            ],
+            "sms:displayName": "treatmentType",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ValidBarcodeReads",
             "@type": "rdfs:Class",
             "rdfs:comment": "Fraction of reads with cell barcodes that match the whitelist",
@@ -4788,6 +5078,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "visitNumber",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:WaterpH",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "pH of water fed to the animal",
+            "rdfs:label": "WaterpH",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "waterpH",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -6675,6 +6982,108 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Zeno Electronic Walkway",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Alpha-dri",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Alpha-dri",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Bedding"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "alpha-dri",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Aspen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Aspen",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Bedding"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "aspen",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Aspensanichip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Aspensanichip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Bedding"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "aspen sanichip",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Corncob",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Corncob",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Bedding"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "corn cob",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Pine",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Pine",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Bedding"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "pine",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Sanichip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Sanichip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Bedding"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sanichip",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11609,6 +12018,91 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:4%standard",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "4%standard",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:RodentDiet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "4% standard",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:6%standard",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "6%standard",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:RodentDiet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "6% standard",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:7%standard",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "7%standard",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:RodentDiet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "7% standard",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:45%high-fat",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "45%high-fat",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:RodentDiet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "45% high-fat",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:5W80western",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "5W80western",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:RodentDiet"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "5W80 western",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:SingleEnd",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -13237,6 +13731,176 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "whole brain",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Abeta42fibril",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Abeta42fibril",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Abeta42 fibril",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Abeta42oligomer",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Abeta42oligomer",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Abeta42 oligomer",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Clozapine",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Clozapine",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "clozapine",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Control",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Control",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "control",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cuprizone",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cuprizone",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cuprizone",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Haloperidol",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Haloperidol",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "haloperidol",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Levetiracetam",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Levetiracetam",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "levetiracetam",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Placebo",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Placebo",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "placebo",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Verubecestat",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Verubecestat",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "verubecestat",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TreatmentType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
