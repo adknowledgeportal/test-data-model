@@ -2055,10 +2055,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:AssayRrnaSeqMetadataTemplate",
+            "@id": "bts:AssayRnaSeqMetadataTemplate",
             "@type": "rdfs:Class",
             "rdfs:comment": "SysBio rnaSeq metadata template schema",
-            "rdfs:label": "AssayRrnaSeqMetadataTemplate",
+            "rdfs:label": "AssayRnaSeqMetadataTemplate",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:DataType"
@@ -2067,7 +2067,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "assayRrnaSeqMetadataTemplate",
+            "sms:displayName": "assayRnaSeqMetadataTemplate",
             "sms:required": "sms:false",
             "sms:requiresComponent": [
                 {
@@ -3412,6 +3412,37 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:MaterialOrigin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Facility where sample was collected",
+            "rdfs:label": "MaterialOrigin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:IU"
+                },
+                {
+                    "@id": "bts:JAX"
+                },
+                {
+                    "@id": "bts:Pitt"
+                },
+                {
+                    "@id": "bts:UCITMF"
+                }
+            ],
+            "sms:displayName": "materialOrigin",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:MatingID",
             "@type": "rdfs:Class",
             "rdfs:comment": "Identifies the animals that were mated to produce the animal in question",
@@ -4659,6 +4690,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:TissueVolume",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Volume of tissue sample in microliters",
+            "rdfs:label": "TissueVolume",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "tissueVolume",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:TissueWeight",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Mass of tissue specimen in mg",
+            "rdfs:label": "TissueWeight",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "tissueWeight",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:TotalReads",
             "@type": "rdfs:Class",
             "rdfs:comment": "Total number of sequencing reads from a library",
@@ -4723,6 +4788,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "visitNumber",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:AssayRrnaSeqMetadataTemplate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "AssayRrnaSeqMetadataTemplate",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Component"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "assayRrnaSeqMetadataTemplate",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
