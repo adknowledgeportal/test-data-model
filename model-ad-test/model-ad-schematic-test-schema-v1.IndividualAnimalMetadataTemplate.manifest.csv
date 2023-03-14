@@ -1,1 +1,1 @@
-individualID,individualIdSource,species,sexChromosome,dateBirth,dateDeath,sex,genotype,genotypeBackground,room,litter,matingID,treatmentDose,modelSystemName
+individualID,ageDeath,ageDeathUnits,bedding,birthID,brainWeight,climbID,dateBirth,dateDeath,genotype,genotypeBackground,individualCommonGenotype,individualIdSource,litter,materialOrigin,matingID,microchipID,modelSystemName,officialName,rodentDiet,rodentWeight,room,sex,sexChromosome,species,stockNumber,treatmentDose,treatmentType,waterpH

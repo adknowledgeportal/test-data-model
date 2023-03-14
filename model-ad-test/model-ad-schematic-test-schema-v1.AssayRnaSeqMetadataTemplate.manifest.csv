@@ -1,1 +1,1 @@
-specimenID,libraryID,assay,platform,RIN,referenceSet,rnaBatch,libraryBatch,sequencingBatch,libraryPrep,libraryPreparationMethod,libraryVersion,isStranded,readStrandOrigin,readLength,runType,totalReads,validBarcodeReads
+specimenID,assay,isStranded,libraryBatch,libraryID,libraryPrep,libraryPreparationMethod,libraryVersion,platform,readLength,readStrandOrigin,referenceSet,RIN,rnaBatch,runType,sequencingBatch,totalReads,validBarcodeReads
