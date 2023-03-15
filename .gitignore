@@ -41,3 +41,6 @@ vignettes/*.pdf
 
 # python venv
 .venv/
+
+*.xlsx
+tmp/
